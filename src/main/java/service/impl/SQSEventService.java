@@ -30,14 +30,10 @@ public class SQSEventService implements IEventService {
     }
 
     public void publishEvent(Event event) {
-        logger.info("Sending all products to SQS queue");
-        logger.info(event.payload);
         SendMessageRequest sendMsgRequest = new SendMessageRequest()
                 .withQueueUrl(this.queueURL)
                 .withMessageBody(event.payload)
                 .withDelaySeconds(5);
         sqs.sendMessage(sendMsgRequest);
-        logger.info("Successfully sent all products to SQS queue");
-
     }
 }

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="389399ea-41b9-4664-a1dc-0ed18b6c79aa" name="Default Changelist" comment="" />
+    <list default="true" id="389399ea-41b9-4664-a1dc-0ed18b6c79aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/runners/ProcessEventRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/Site.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/Site.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/SQSEventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/SQSEventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/ProcessProductsTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/ProcessProductsTasks.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -10,6 +28,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -58,35 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ProcessProductsTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SQSEventService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="565">
+              <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,10 +103,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/App.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="214">
+              <caret line="197" column="27" lean-forward="true" selection-start-line="197" selection-start-column="27" selection-end-line="197" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/processor/IPageProcessFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/ProductResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/PageProcessorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/runners/ProcessEventRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,22 +166,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/ProductResponse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SQSEventService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="472">
+              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#690#720#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/PageProcessorFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="168">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,31 +193,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-end-line="40" />
+            <state relative-caret-position="160">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/1ec738903bf781d7218455e314c6dc9831a2f9a6/jsoup-1.12.1-sources.jar!/org/jsoup/select/Elements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="418" column="20" selection-start-line="418" selection-start-column="20" selection-end-line="418" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -177,6 +212,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -187,7 +223,12 @@
       <find>Component</find>
       <find>ComponentScan</find>
       <find>%S</find>
+      <find>get</find>
+      <find>get()</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -202,7 +243,6 @@
         <option value="$PROJECT_DIR$/src/main/java/crawler/ProductCrawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/crawler/ICrawler.java" />
         <option value="$PROJECT_DIR$/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/processor/IPageProcessFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/SchedulerConfig.java" />
@@ -210,26 +250,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/rross/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProcessProductsTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/crawler/impl/ProductCrawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/processor/impl/PageProcessorFactory.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/constants/PageProcessor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/constants/Site.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Price.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/ProductResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tasks/ProcessProductsTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/constants/Site.java" />
+        <option value="$PROJECT_DIR$/src/test/java/processor/impl/SSensePageProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/ProductResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Price.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/processor/impl/PageProcessorFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runables/ProcessEventRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/impl/SQSEventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/runners/ProcessEventRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tasks/ProcessProductsTasks.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="width" value="2048" />
+    <option name="height" value="1152" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -267,7 +313,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +331,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="processor" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marketplace-crawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
@@ -313,13 +367,6 @@
             </path>
             <path>
               <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketplace-crawler" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -355,86 +402,25 @@
               <item name="java.base" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.amazonaws:aws-java-sdk-sqs:1.11.228" type="70bed36:NamedLibraryElementNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.9" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.amazonaws:aws-java-sdk-sqs:1.11.228" type="70bed36:NamedLibraryElementNode" />
-              <item name="aws-java-sdk-sqs-1.11.228.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.9.9.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.amazonaws:aws-java-sdk-sqs:1.11.228" type="70bed36:NamedLibraryElementNode" />
-              <item name="aws-java-sdk-sqs-1.11.228.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="amazonaws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.amazonaws:aws-java-sdk-sqs:1.11.228" type="70bed36:NamedLibraryElementNode" />
-              <item name="aws-java-sdk-sqs-1.11.228.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="amazonaws" type="462c0819:PsiDirectoryNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: com.amazonaws:aws-java-sdk-sqs:1.11.228" type="70bed36:NamedLibraryElementNode" />
-              <item name="aws-java-sdk-sqs-1.11.228.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="amazonaws" type="462c0819:PsiDirectoryNode" />
-              <item name="sqs" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.jsoup:jsoup:1.12.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.jsoup:jsoup:1.12.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="jsoup-1.12.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.jsoup:jsoup:1.12.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="jsoup-1.12.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jsoup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.jsoup:jsoup:1.12.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="jsoup-1.12.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jsoup" type="462c0819:PsiDirectoryNode" />
-              <item name="select" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.projectlombok:lombok:1.18.8" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.projectlombok:lombok:1.18.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="lombok-1.18.8.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketplace-crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Gradle: org.projectlombok:lombok:1.18.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="lombok-1.18.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lombok" type="462c0819:PsiDirectoryNode" />
+              <item name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.9" type="70bed36:NamedLibraryElementNode" />
+              <item name="jackson-databind-2.9.9.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="databind" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,8 +430,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -454,7 +445,13 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="processor.impl" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -507,17 +504,20 @@
       <workItem from="1567201274293" duration="7847000" />
       <workItem from="1567228160031" duration="3095000" />
       <workItem from="1567264069197" duration="13353000" />
+      <workItem from="1567564837204" duration="2718000" />
+      <workItem from="1567609629881" duration="55000" />
+      <workItem from="1567826019052" duration="12309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24295000" />
+    <option name="totallyTimeSpent" value="41796000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="1680" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22949947" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,14 +526,48 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897383" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32987553" />
+      <window_info anchor="bottom" id="GraphQL" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31991953" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32960597" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22949947" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32897383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32987553" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32987553" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31991953" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -549,43 +583,28 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32987553" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32987553" />
-      <window_info anchor="bottom" id="GraphQL" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32987553" />
-      <window_info anchor="bottom" id="Docker" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.32967034" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew">
@@ -617,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/IPageProcessFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.7.RELEASE/1764fc113610ae7f54231df9c124d2f5598dace1/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -638,16 +650,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/SchedulerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/SchedulerConfig.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.9.RELEASE/72b33b58f7738d9914eba120866a7addf009974a/spring-beans-5.1.9.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Value.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -655,20 +658,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/impl/ProductCrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/impl/ProductCrawler.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.11.622/bb74cafb66464388bf10f57a5640e646afac2200/aws-java-sdk-sqs-1.11.622-sources.jar!/com/amazonaws/services/sqs/AmazonSQSClientBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -680,31 +670,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/ICrawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Site.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/crawler/ICrawler.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.11.228/2dc74e5cd039b958ef219a71160784731427ea95/aws-java-sdk-sqs-1.11.228-sources.jar!/com/amazonaws/services/sqs/model/SendMessageRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="401" column="30" selection-start-line="401" selection-start-column="30" selection-end-line="401" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -722,13 +692,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Price.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/1ec738903bf781d7218455e314c6dc9831a2f9a6/jsoup-1.12.1-sources.jar!/org/jsoup/select/Elements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="8337">
+          <caret line="418" column="20" selection-start-line="418" selection-start-column="20" selection-end-line="418" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2877">
+          <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="40" column="66" lean-forward="true" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constants/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/1ec738903bf781d7218455e314c6dc9831a2f9a6/jsoup-1.12.1-sources.jar!/org/jsoup/Jsoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="72" column="33" lean-forward="true" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2551#2552#0" expanded="true" />
+            <element signature="e#2601#2602#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/1ec738903bf781d7218455e314c6dc9831a2f9a6/jsoup-1.12.1-sources.jar!/org/jsoup/nodes/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/1ec738903bf781d7218455e314c6dc9831a2f9a6/jsoup-1.12.1-sources.jar!/org/jsoup/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="287" column="16" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/processor/impl/SSensePageProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/1ec738903bf781d7218455e314c6dc9831a2f9a6/jsoup-1.12.1-sources.jar!/org/jsoup/helper/HttpConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="91" column="49" lean-forward="true" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="54" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.9/8b717e1bc24a642cee070ae3860f04eb20c92779/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="3212" column="18" selection-start-line="3212" selection-start-column="18" selection-end-line="3212" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -739,22 +794,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Price.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="273">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/ProductResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/processor/IPageProcessFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/ProductResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/PageProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -766,76 +872,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SQSEventService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="472">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#690#720#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/runners/ProcessEventRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/IPageProcessor.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="181" column="14" selection-start-line="181" selection-start-column="14" selection-end-line="181" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.12.1/1ec738903bf781d7218455e314c6dc9831a2f9a6/jsoup-1.12.1-sources.jar!/org/jsoup/select/Elements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="418" column="20" selection-start-line="418" selection-start-column="20" selection-end-line="418" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/SSensePageProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/processor/impl/PageProcessorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="214">
+          <caret line="197" column="27" lean-forward="true" selection-start-line="197" selection-start-column="27" selection-end-line="197" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tasks/ProcessProductsTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/impl/SQSEventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="565">
+          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

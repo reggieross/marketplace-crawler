@@ -1,24 +1,17 @@
 package tasks;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import constants.Site;
-import domain.Event;
-import domain.Product;
-import domain.ProductResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import processor.IPageProcessor;
+import runners.ProcessProductRunner;
 import service.IEventService;
 import org.springframework.scheduling.annotation.Scheduled;
 import processor.IPageProcessFactory;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @Component
 public class ProcessProductsTasks {
@@ -37,36 +30,26 @@ public class ProcessProductsTasks {
 
     @Scheduled(fixedRate = 86400000)
     public void processNewProducts() {
-        List<Product> productResponses = Arrays.stream(
-            Site.values()
-        ).map(siteEnum -> {
+        ExecutorService executor = Executors.newFixedThreadPool(30);
+        for (Site site: Site.values() ){
             try {
-                IPageProcessor pageProcessor = pageProcessFactory.getPageProcessor(siteEnum);
-                return pageProcessor.process();
+                IPageProcessor pageProcessor = pageProcessFactory.getPageProcessor(site);
+                Runnable worker = new ProcessProductRunner(pageProcessor, this.sqsEventService);
+                executor.execute(worker);
             } catch (Exception e){
                 logger.debug(
                     String.format(
-                        "The %s you were trying to use has not been implemented yet",
-                        siteEnum
+                        "The page processor for %s not been implemented yet",
+                        site
                     )
                 );
-                return new ArrayList<Product>();
             }
-        }).flatMap(Collection::stream)
-        .collect(Collectors.toList());
-
-        ObjectMapper objectMapper = new ObjectMapper();
-        ProductResponse response = ProductResponse.builder().products(productResponses).build();
-        String responseString = "";
-        try {
-            responseString = objectMapper.writeValueAsString(response);
-        } catch (Exception e) {
-            logger.error("We were unable to serialize the product list");
+        }
+        executor.shutdown();
+        // Wait until all threads are finish
+        while (!executor.isTerminated()) {
         }
 
-        this.sqsEventService.publishEvent(
-                Event.builder()
-                    .payload(responseString).build()
-        );
+        System.out.println("\nFinished processing all sites");
     }
 }
