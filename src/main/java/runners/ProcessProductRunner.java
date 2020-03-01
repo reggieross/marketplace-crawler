@@ -31,14 +31,19 @@ public class ProcessProductRunner implements Runnable {
         List<Product> productList = pageProcessor.process();
 
         logger.info(String.format("%s products found on %s", productList.size(), this.pageProcessor.getSite()));
-        this.submitProductsToQueue(productList);
+        for (Product product: productList) {
+            boolean isValid = this.validateProduct(product);
+            if (isValid) {
+                this.submitProductsToQueue(product);
+            }
+        }
 
         logger.info(String.format("====== Successfully submitted products for %s to queue ======", this.pageProcessor.getSite()));
     }
 
-    private void submitProductsToQueue(List<Product> productList) {
+    private void submitProductsToQueue(Product product) {
         ObjectMapper objectMapper = new ObjectMapper();
-        ProductResponse response = ProductResponse.builder().products(productList).build();
+        ProductResponse response = ProductResponse.builder().product(product).build();
         String responseString = "";
         try {
             responseString = objectMapper.writeValueAsString(response);
@@ -51,5 +56,9 @@ public class ProcessProductRunner implements Runnable {
                 .payload(responseString)
                 .build()
         );
+    }
+
+    private boolean validateProduct(Product product) {
+        return product.getName() != null && product.getPrice() != null;
     }
 }
