@@ -1,5 +1,7 @@
 package service.impl;
 
+import com.amazonaws.auth.EnvironmentVariableCredentialsProvider;
+import com.amazonaws.regions.Regions;
 import com.amazonaws.services.sqs.AmazonSQSClientBuilder;
 import com.amazonaws.services.sqs.model.SendMessageRequest;
 import org.slf4j.Logger;
@@ -18,7 +20,10 @@ public class SQSEventService implements IEventService {
     private static final Logger logger = LoggerFactory.getLogger(ProcessProductsTasks.class);
 
     public SQSEventService(@Value("${sqs.marketplace.queuename}")String queueName) {
-        this.sqs = AmazonSQSClientBuilder.defaultClient();
+        this.sqs = AmazonSQSClientBuilder.standard()
+            .withCredentials(new EnvironmentVariableCredentialsProvider())
+            .withRegion(Regions.US_EAST_1)
+            .build();
         this.queueURL = this.sqs.getQueueUrl(queueName).getQueueUrl();
         System.out.println(
             String.format(

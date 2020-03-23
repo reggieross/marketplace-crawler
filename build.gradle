@@ -30,7 +30,9 @@ dependencyManagement {
 }
 
 dependencies {
-    compileOnly 'org.projectlombok:lombok:1.18.8'
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
 
     implementation 'com.amazonaws:aws-java-sdk-s3'
     implementation 'com.amazonaws:aws-java-sdk-ec2'
@@ -42,4 +44,7 @@ dependencies {
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'junit:junit:4.12'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.12'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
 }

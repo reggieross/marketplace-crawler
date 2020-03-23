@@ -3,6 +3,7 @@ package processor.impl;
 import constants.Site;
 import domain.Price;
 import domain.Product;
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -31,7 +32,9 @@ public class HavenPageProcessor implements IPageProcessor {
     private List<Product> getProducts(String URL) {
         List<Product> products = new ArrayList<>();
         try {
-            Document document = Jsoup.connect(URL).get();
+            Connection conn = Jsoup.connect(URL);
+            conn.timeout(10 * 1000);
+            Document document = conn.get();
             Elements productsOnPage = document.select("a.product-card");
             for (Element page : productsOnPage) {
                 products.add(getProductForHTML(page));
